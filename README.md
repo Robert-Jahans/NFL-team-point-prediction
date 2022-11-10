@@ -4,10 +4,11 @@ Introduction
 
 The goal of this repository was to try and predict how many points a team would score and allow in the 2022/23 season based on the 3 previous seasons statistics. All the data was collected from ProFootballReference.com. A random forest regression and multiple linear regressions were used to examine which statistics are more predictive of points on both sides of the ball. 
 If this would like to be required, the following module and extensions would need to be installed: 
+Pandas, Matplotlib, Numpy, Sklearn and ipywidgets.
 
 Scraping
 
-Firstly, the data was scraped from Pro football reference. The datasets used for predicting points scored were     . the data sets used for predicting points allowed were    .
+Firstly, the data was scraped from Pro football reference. The datasets used for predicting points scored were advanced passing, advanced team rushing and scoring ofense. The data sets used for predicting points allowed were advanced team passing defence and advanced rushing defense.
 
 Analysis
 
@@ -19,4 +20,4 @@ The number retrieved from this was used to show if a team was over or underperfo
 
 Evaluation
 
-This project could be improved by
+This project could be improved by using more variables that differ from the data sets used such as penalties, time, previous game result (win/loss) and weather. Home and away splits should be used in future as well as predicting the number of points conceded and scored against specific teams based on their predictions.
